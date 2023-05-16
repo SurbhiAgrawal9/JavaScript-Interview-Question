@@ -49,6 +49,9 @@ console.log(0.1 + 0.2 == 0.3);
     console.log(4);  
 })();
 ```
+
+
+
 ```js
   function sum(x, y) {
   if (y !== undefined) {
@@ -57,10 +60,8 @@ console.log(0.1 + 0.2 == 0.3);
     return function(y) { return x + y; };
   }
 }
-```
 
 
-```js
 console.log(sum(2,3));   // Outputs 5
 console.log(sum(2)(3));  // Outputs 5
 
